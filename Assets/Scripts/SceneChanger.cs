@@ -7,7 +7,7 @@ public class SceneChanger : MonoBehaviour
 {
     public void ChangeScene(Color color)
     {
-        DataHolder.color = color;
+        DataHolder.BgColor = color;
         SceneManager.LoadScene("Level1");
     }
 

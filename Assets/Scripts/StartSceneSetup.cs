@@ -10,8 +10,8 @@ public class StartSceneSetup: MonoBehaviour
 
     void Start()
     {
-        colorValue.text = DataHolder.color.ToString();
-        mainCamera.GetComponent<Camera>().backgroundColor = DataHolder.color;
+        colorValue.text = DataHolder.BgColor.ToString();
+        mainCamera.GetComponent<Camera>().backgroundColor = DataHolder.BgColor;
     }
 
 }
